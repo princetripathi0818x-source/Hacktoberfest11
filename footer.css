@@ -62,13 +62,13 @@ body {
     right: 20px;                  /* 20px from the right */
     padding: 10px 20px;           /* Padding for the button */
     background-color: #ff5733;    /* Vibrant orange for the button */
-    color: white;
+    color: red;
     border: none;
     border-radius: 50px;          /* Rounded button */
     cursor: pointer;
     font-size: 14px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    opacity: 0;                   /* Initially hidden */
+    opacity: 5;                   /* Initially hidden */
     visibility: hidden;           /* Hidden state */
     transition: all 0.3s ease;    /* Smooth transition */
     z-index: 1000;                /* Stay on top of other elements */
@@ -83,7 +83,7 @@ body {
   .scroll-top-btn:hover,
   .scroll-top-btn:focus {
     background-color: #ff4519;    /* Darker orange on hover */
-    outline: none;                /* Remove button outline */
+    outline: blue;                /* Remove button outline */
     transform: translateY(-2px);  /* Slight lift on hover */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
   }
