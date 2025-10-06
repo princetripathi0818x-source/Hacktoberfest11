@@ -21,6 +21,7 @@
 
 ### 💡 Why Contribute?
 
+
 - Learn new technologies and best practices
 - Build your portfolio
 - Network with developers globally
